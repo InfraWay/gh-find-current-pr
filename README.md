@@ -17,7 +17,7 @@ Additionally, `title` and `body` outputs are available as well to get the respec
     steps:
       - uses: actions/checkout@v1
       # Find the PR associated with this push, if there is one.
-      - uses: jwalton/gh-find-current-pr@v1
+      - uses: infraway/gh-find-current-pr@v1.0
         id: findPr
       # This will echo "Your PR is 7", or be skipped if there is no current PR.
       - run: echo "Your PR is ${PR}"
