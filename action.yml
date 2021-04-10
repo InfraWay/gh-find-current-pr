@@ -1,12 +1,12 @@
-name: Find Current Pull Request
-author: jwalton
-description: Find a PR associated with the current commit.
+name: Find GitHiub Pull Request
+author: Infraway
+description: Find an open PR associated with the current commit.
 inputs:
   github-token:
-    description: The GitHub token used to create an authenticated client.  Defaults to github provided token.
+    description: The GitHub token used to create an authenticated client. Defaults to github provided token.
     default: ${{ github.token }}
   sha:
-    description: Sha to get PR for.  Defaults to current sha.
+    description: Sha to get PR for. Defaults to current sha.
     default: ${{ github.sha }}
 outputs:
   pr:
@@ -22,4 +22,4 @@ runs:
   main: 'main.js'
 branding:
   icon: git-pull-request
-  color: blue
+  color: green
