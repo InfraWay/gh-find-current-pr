@@ -1,6 +1,6 @@
 name: Find GitHiub Pull Request
 author: Infraway
-description: Find an open PR associated with the current commit.
+description: Find open PR associated with the current commit.
 inputs:
   github-token:
     description: The GitHub token used to create an authenticated client. Defaults to github provided token.
